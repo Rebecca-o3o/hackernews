@@ -1,0 +1,8 @@
+.nav-container {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  margin: 15px 15px;
+}

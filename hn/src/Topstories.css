@@ -6,7 +6,11 @@
   flex-direction: column;
   -ms-align-items: center;
   align-items: center;
-  color: #2D3047
+  color: #2D3047;
+  background-color: #FFFAEF;
+  position: absolute;
+  top: 120px;
+  width: 100%;
 }
 
 .story-container{
