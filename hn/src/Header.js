@@ -20,14 +20,13 @@ class Header extends Component {
   }
 
   handleScroll(e) {
-    console.log("scroll detected")
+    // console.log("scroll detected")
 
+    //TODO: loading more stories and style box shadow
     this.setState({
       // transform: itemTranslate
     })
   }
-
-
 
   render() {
     return (
