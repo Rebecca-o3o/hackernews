@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+
+
+.news {
+  display: flex;
+  flex-direction: column;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.story-container{
+  border-bottom: #2D3047 solid 1px;
+  color: #008B8B;
+  width: 70%;
+  padding: 10px 0;
+}
+
+.title{
+  font-family: 'Kalam', sans-serif;
+  font-size: 1.5em;
+}
+
+.author{}
+
+a{}
