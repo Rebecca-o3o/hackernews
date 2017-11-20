@@ -9,7 +9,7 @@ and uses [Hacker News API](https://github.com/HackerNews/API).
 To start app locally, run:
 
 ```
-cd hd/
+cd hn/
 npm start
 ```
 
