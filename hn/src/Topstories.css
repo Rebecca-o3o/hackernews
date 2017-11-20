@@ -6,13 +6,13 @@
   flex-direction: column;
   -ms-align-items: center;
   align-items: center;
+  color: #2D3047
 }
 
 .story-container{
   border-bottom: #2D3047 solid 1px;
-  color: #008B8B;
   width: 70%;
-  padding: 10px 0;
+  padding: 15px 0;
 }
 
 .title{
@@ -20,6 +20,16 @@
   font-size: 1.5em;
 }
 
-.author{}
+.story-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  font-size: 0.8em
+}
 
-a{}
+/*.author{
+}*/
+
+a{
+  color: #008B8B;
+}

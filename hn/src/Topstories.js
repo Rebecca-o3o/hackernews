@@ -54,8 +54,10 @@ export default class Topstories extends Component {
         return (
           <div className="story-container">
             <div className="title">{story.title}</div>
-            <div className="author">Author: {story.by}</div>
-            <a href={`${story.url}`}>Go to Article</a>
+            <div className="story-details">
+              <div className="author">Author: {story.by}</div>
+              <a href={`${story.url}`}>Go to Article</a>
+            </div>
           </div>
         )
       })
